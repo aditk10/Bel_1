@@ -15,9 +15,33 @@ public class Coba : MonoBehaviour
         // Debug.Log("Game Over");
 
         //for loop
-        for (int i = 0; i < 3; i++)
+        // for (int i = 0; i < 3; i++)
+        // {
+        //     Debug.Log("iterasi ke-" +i);
+        // }
+
+        // faktorial challenge 1
+        // int n = 5;
+
+        // long fact = 1;
+
+        // for (int i = 1; i <= n; i++)
+        // {
+        //     fact *= i;
+        // }
+        // Debug.Log("Faktorial dari input = " + fact);
+
+        // faktorial challenge 2
+        int n = 4;
+
+        for (int i = 1; i <= n; i++)
         {
-            Debug.Log("iterasi ke-" +i);
+            string baris = "";
+            for (int j = 1; j <= i; j++)
+            {
+                baris += "*";
+            }
+            Debug.Log(baris); // Pindah ke baris berikutnya
         }
     }
 
