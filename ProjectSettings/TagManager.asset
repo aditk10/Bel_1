@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Sasaran
   - Bola
+  - Kotak Tabrak
+  - Dinding
   layers:
   - Default
   - TransparentFX
