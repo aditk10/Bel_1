@@ -22,6 +22,7 @@ public class SquareMove2 : MonoBehaviour
     //mengatur kecetapan dari object
     void Update()
     {
+        //looping untuk mengatur arah gerak dari object sekaligus mengatur juga kecepatannya
         switch (arahGerakB)
         {
             case ArahGerakB.atas:
