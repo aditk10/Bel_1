@@ -6,11 +6,16 @@ public class intraksi12B : MonoBehaviour
     //fungsi digunakan untuk memanggil kode dari file squaremove2 agar fungsi-fungsi bisa dipanggil
     public SquareMove2 squareMove2;
 
+    
+
     //deklarasi variable skor
     public int skor;
+    public int nyawa;
 
     //deklarasi variable untuk mengubah skor
     public TMP_Text TeksSkor;
+
+    public TMP_Text TeksNyawa;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {

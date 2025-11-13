@@ -8,6 +8,8 @@ TagManager:
   - Bola
   - Kotak Tabrak
   - Dinding
+  - Karakter
+  - Lantai
   layers:
   - Default
   - TransparentFX

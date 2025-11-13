@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UIElements.Experimental;
 
 public class SquareMove2 : MonoBehaviour
 {
@@ -64,14 +65,19 @@ public class SquareMove2 : MonoBehaviour
                 arahGerakB = ArahGerakB.kiri;
             }
             Intraksi12B.skor++;
+            // Intraksi12B.nyawa--;
             TambahSkor();
+            // KurangNyawa();
         }
     }
+    
     //penambahan skor setelah menabrak dinding
     public void TambahSkor()
     {
-        Intraksi12B.TeksSkor.text = "skor : " + Intraksi12B.skor.ToString();
+        Intraksi12B.TeksSkor.text = "Skor : " + Intraksi12B.skor.ToString();
     }
+    //Pengurangan nyawa setelah menabrak sesuatu
+    
 }
 
 //Deklarasi Enumerator dengan nama arah
